@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+face_recognition
+opencv-python
+python-multipart
+pandas
+numpy
