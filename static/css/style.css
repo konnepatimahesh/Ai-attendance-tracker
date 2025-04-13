@@ -1,0 +1,67 @@
+/* General styles for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1ba8b4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container to center the content */
+.container {
+    text-align: center;
+    padding: 30px;
+    background-color:#b7b7b2;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+/* Heading styles */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* File input and button styles */
+input[type="file"] {
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #1a1313;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Attendance result styling */
+#attendance-result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Loading message styling */
+#loading {
+    font-size: 16px;
+    color: #007bff;
+    font-weight: bold;
+    margin-top: 10px;
+}
